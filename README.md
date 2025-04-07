@@ -1,60 +1,4 @@
 
-🔹 Main Components / Modules (CV Points)
-📁 Document Ingestion System
-
-Upload documents (PDF, Word, TXT) via FastAPI.
-
-Extract and clean text using Python libraries (PyMuPDF, python-docx, etc.).
-
-🧠 Embedding + Vector DB Indexing
-
-Chunk text and convert to embeddings using Hugging Face Transformers.
-
-Store vectors in FAISS and store metadata in MySQL.
-
-🔍 Retrieval-Augmented Generation (RAG)
-
-Query system retrieves top relevant chunks using vector similarity.
-
-Combine with Hugging Face LLM API (e.g., Mistral, Falcon, OpenChat).
-
-👤 User Personalization
-
-Store user profiles and preferences (tone, expertise) in MySQL.
-
-Tailor prompts dynamically based on user profile.
-
-💬 Interactive Chat API
-
-/chat endpoint receives user input, retrieves relevant data, sends to LLM.
-
-Returns a response tailored to context and profile.
-
-🛡️ Auth + Session Management
-
-JWT-based login/signup.
-
-Sessions for chat history stored in MySQL.
-
-📦 Deployment Ready (Docker + Uvicorn)
-
-Containerized with Docker.
-
-Swagger docs auto-generated.
-
-Scalable structure for production.
-
-
-
-Workspace: Sure, here's a proposed directory structure for an advanced NLP chatbot project named "Intelligent Personalized Knowledge Assistant":
-
-
-
-Create Workspace...
-
-mohmed166202: create a read me file for this worksapce
-
-Workspace: Collecting workspace informationHere is a sample `README.md` file for your workspace:
 
 ```markdown
 # Intelligent Personalized Knowledge Assistant
@@ -137,11 +81,11 @@ Contributions are welcome! Please follow these steps:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Contact
 
-For questions or support, please contact [your-email@example.com].
+For questions or support, please contact [mohmedessam166202@gmail.com].
 ```
 
 mohmed166202: more readable and have emojies and more tec
@@ -257,7 +201,7 @@ We welcome contributions! Here's how you can help:
 
 ## 📜 License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**.
 
 ---
 
@@ -265,8 +209,8 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 For questions or support, feel free to reach out:
 
-- Email: [your-email@example.com]
-- GitHub: [https://github.com/your-repo](https://github.com/your-repo)
+- Email: [mohmedessam166202@gmail.com]
+
 
 ---
 
