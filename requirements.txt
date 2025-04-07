@@ -1,0 +1,9 @@
+FastAPI
+transformers
+torch
+mysql-connector-python
+pydantic
+scikit-learn
+numpy
+pytest
+uvicorn
